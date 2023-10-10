@@ -28,10 +28,10 @@ def Type(callback: CallbackQuery):
         print('qeweqw ')
         collection_challenges.insert_one(vars(message_handles.__dict__['new_challenge']))
         if collection_challenges.count_documents({}) == 0:
-            print('huy')
+            print('No active challenges')
             bot.send_message(callback.message.chat.id, "No active challenges", reply_markup=keyboards.challenges_markup)
         else:
-            print('qwe')
+            print('New challenge added')
             bot.send_message(callback.message.chat.id, "New challenge added", reply_markup=keyboards.admin_markup)
             challengs = return_challenges()
             for x in challengs[:-1]:
