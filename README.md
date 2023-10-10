@@ -33,7 +33,7 @@ https://youtu.be/-7JbjtgbEyM
 
 To install SportChallengesBot on your server or local machine, follow these steps:
 
-1. Clone the [project repository]() from GitHub.
+1. Clone the [project repository](https://github.com/IT-IS-TI/sport_miniapp) from GitHub.
 2. To edit the challenges go to src/components/ChallengesList/ChallengeList.jsx
 3. Install Node.js if you have not installed.
 4. In the terminal run the command "npm install".
@@ -107,7 +107,7 @@ See the [LICENSE](LICENSE) file for details.
 ## Установка проекта:
 
 Чтобы установить SportChallengesBot на свой сервер или локальную машину, выполните следующие действия:
-1. Склонируйте [репозиторий проекта]() из GitHub.
+1. Склонируйте [репозиторий проекта](https://github.com/IT-IS-TI/sport_miniapp) из GitHub.
 2. Чтобы отредактировать вызовы, перейдите в src/components/ChallengesList/ChallengeList.jsx
 3. Установите Node.js, если вы этого не сделали.
 4. В терминале выполните команду "npm install".
