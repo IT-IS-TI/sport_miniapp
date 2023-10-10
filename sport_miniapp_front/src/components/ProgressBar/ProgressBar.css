@@ -1,0 +1,55 @@
+.container{
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-bottom: 30px; */
+}
+.progress-bar{
+    width: 100%;
+    border: 3px solid var(--tg-theme-button-color);
+    min-height: 25%;
+    border-radius: 20px;
+  }
+  
+.progress-bar-fill{
+    height: 100%;
+    border-radius: 18px;
+    transition: width 0.5s ease-out;
+    text-align: center;
+    padding: 0.25em;
+    font-size: 1.5em;
+}
+  
+.progress-label {
+    height: 30%;
+    
+}
+
+.button {
+    height:40%;
+    padding:5px 10px;
+    background: blue;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.bar-name {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.description {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+    font-size: x-small;
+}
+  

@@ -1,0 +1,60 @@
+.challenge {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid var(--tg-theme-button-color);
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 200px;
+}
+.challenge-center-module {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 45%;
+}
+
+.challenge-right-module {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 25%;
+}
+
+.challenge-left-module {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 30%; 
+}
+
+img {
+    width: 70px;
+    height: 70px;
+    margin:0 auto;
+    background: var(--tg-theme-bg-color);
+}
+
+.rewards {
+    min-height: 20%;
+    display: flex;
+    flex-direction: row;
+}
+
+.points {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    border: 3px solid var(--tg-theme-button-color);
+    border-radius: 5px;
+}
+
+.gems-ch {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    border: 3px solid var(--tg-theme-button-color)k;
+    border-radius: 5px;
+}
