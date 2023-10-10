@@ -84,7 +84,7 @@ def start_page2(message: Message):
     if message.text == 'Help':
         bot.send_message(message.chat.id, texts.Help_Button, reply_markup=keyboards.default_markup2)
     if message.text == 'Profile':
-        print('huy')
+        print('Profile button pressed')
         bot.send_message(message.chat.id, texts.Profile, reply_markup=keyboards.Profile_markup)
 
 
