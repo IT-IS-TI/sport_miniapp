@@ -87,6 +87,8 @@ See the [LICENSE](LICENSE) file for details.
 
 ## Видео демонстрация SportChallengesBot
 
+https://youtu.be/-7JbjtgbEyM
+
 ## Способ применения:
 
 1. Установите Telegram на свое устройство (доступно как для мобильного, так и для десктопного устройства).
